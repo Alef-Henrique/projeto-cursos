@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto Flex", sans-serif;
+
+}
+body{
+    background-color:#f1f1f1;
+}
+.container-header{
+    background-color:#2c2c2c;
+
+}
+.section-header {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+ background-color:#2c2c2c;
+ align-items: center;
+ width: 1200px;
+ margin: 0 auto;
+}
+.container-links nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: end;
+
+}
+.container-links nav li{
+    display: inline-block;
+    padding: 8px;
+
+}
+.container-links nav a{
+    text-decoration: none;
+    color: yellow;
+    border: 1.5px solid yellow;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 3.5px;
+}
+.container-links nav a:hover{
+    background-color: #585858;
+}
+.container-banner{
+    background: linear-gradient(to bottom, #f8de48, #fcf5df);
+}
+.subcontainer-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #f8de48, #fcf5df);
+    padding: 0px 20px;
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.texto-banner{
+    width: 500px;
+}
+.texto-banner h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin-bottom: 50px;
+}
+.texto-banner a {
+    text-decoration: none;
+    background-color: #f8de48;
+    color: #2c2c2c;
+    padding: 16px 50px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+.section-cursos h1 {
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 80px 0;
+
+}
+.container-cursos{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 2em auto;    
+}
+.intens-cursos {
+    
+    box-shadow: 2px 2px 10px rgba(155, 155, 155, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 8.5px;
+    background-color: #f0f0f0 ;
+}
+.texto-intens {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 300px;
+}
+.texto-intens h2, p{
+    padding: 18px 0;
+}
+.texto-intens p{
+    font-size: 1em;
+}
+
+
+.section-cursos a{
+    background-color: #f8de48;
+    color: #2c2c2c;
+    padding: 16px 16px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    margin: 3.5em auto;
+}
+.section-nossa-escola{
+    background-color: #163e6b;
+    padding-top: 3em;
+}
+
+.container-nossa-escola{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    gap: 5em;
+}
+.container-texto-nossa-escola h2 {
+    font-size: 2.5em;
+    color:#f1f1f1;
+    padding-bottom: 1.5em;
+}
+.container-texto-nossa-escola p{
+    font-size: 1.15em;
+    color:#f1f1f1;
+}
+
+.section-map h1{
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 80px 0;
+}
+.section-map iframe{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1200px;
+}
+footer{
+    background-color: #2c2c2c;
+    padding: 40px 0;
+    margin-top: 50px;
+    text-align: center;
+    color:#f1f1f1
+}
+
+
